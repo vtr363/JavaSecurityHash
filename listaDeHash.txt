@@ -1,0 +1,5 @@
+
+{CaminhoArquivo: E:\Usuarios\Victor\Documentos\GitRepos\JavaSecurityHash\src\testeHash\texto1.txt, NomeArquivo: texto1.txt,
+Hash: 43bbf4fc1962a588671ffe8b44954eda}
+{CaminhoArquivo: E:\Usuarios\Victor\Documentos\GitRepos\JavaSecurityHash\src\testeHash\texto2.txt, NomeArquivo: texto2.txt,
+Hash: dfb03cec6f16c7a38f37ea0578b820c1}
