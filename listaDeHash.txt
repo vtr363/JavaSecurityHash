@@ -1,5 +1,17 @@
 
-{CaminhoArquivo: E:\Usuarios\Victor\Documentos\GitRepos\JavaSecurityHash\src\testeHash\texto1.txt, NomeArquivo: texto1.txt,
+{NomePasta: textePastaAninhada,
+HashPasta: 
+{
+{CaminhoArquivo: .\src\testeHash\textePastaAninhada\texto3.txt,
+NomeArquivo: texto3.txt,
+Hash: f7f83d87dd1cbca89d06b5f31d960c84}
+{CaminhoArquivo: .\src\testeHash\textePastaAninhada\texto4.txt,
+NomeArquivo: texto4.txt,
+Hash: 5f61597a79e725fef0a6ae92097cad84}
+}
+{CaminhoArquivo: .\src\testeHash\texto1.txt,
+NomeArquivo: texto1.txt,
 Hash: 43bbf4fc1962a588671ffe8b44954eda}
-{CaminhoArquivo: E:\Usuarios\Victor\Documentos\GitRepos\JavaSecurityHash\src\testeHash\texto2.txt, NomeArquivo: texto2.txt,
+{CaminhoArquivo: .\src\testeHash\texto2.txt,
+NomeArquivo: texto2.txt,
 Hash: dfb03cec6f16c7a38f37ea0578b820c1}

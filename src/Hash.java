@@ -44,17 +44,14 @@ public class Hash {
                     				 + "Hash: " + hash+"}";
                     
                 }
-//                Este trecho tem problemas de permissão na pasta
-                
-//                else if(Files.isDirectory(path)) {
-//                	
-//                	//se for pasta chama novamente a função de forma recursiva
-//                	String pathPasta = path.toString();
-//                	String hash = doHash(pathPasta);
-//                	arquivoSaida += "\n{NomePasta: " + path.getFileName().toString() + ",\n"
-//                				  + "HashPasta: " + hash + ",\n"
-//                				  + "ArquivosPasta: "+ this.doHashInFolder(pathPasta)+"}";
-//                }
+                else if(Files.isDirectory(path)) {
+                	
+                	//se for pasta chama novamente a função de forma recursiva
+                	String pathPasta = path.toString();
+                	String hash = doHashInFolder(pathPasta);
+                	arquivoSaida += "\n{NomePasta: " + path.getFileName().toString() + ",\n"
+                				  + "HashPasta: \n{" + hash + "\n}";
+                }
             }
             // retorna todo para ser salvo em um txt a parte
             return arquivoSaida;
@@ -62,7 +59,7 @@ public class Hash {
     }
 
     public static void main(String[] args) throws NoSuchAlgorithmException, IOException {
-        String folderPath = "E:\\Usuarios\\Victor\\Documentos\\GitRepos\\JavaSecurityHash\\src\\testeHash"; // Insira o caminho para a pasta aqui
+        String folderPath = ".\\src\\testeHash"; // Insira o caminho para a pasta aqui
         Files.writeString(Path.of("listaDeHash.txt"), (new Hash()).doHashInFolder(folderPath));;
     }
 }
